@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+${1:name}ItemView = Marionette.ItemView.extend({
+  el: '${2:css-selector}',
+  template: '${3:css-selector}',
+  ui: {
+	${4:name}: '${5:css-selector}'       
+  },
+  events: {
+    'click @ui.${6:name} ': '${7:callback} '
+  },
+
+  ${7:callback} : function(e) {
+    console.log('I clicked the button!');
+  } 
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sn-marionette-view</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
