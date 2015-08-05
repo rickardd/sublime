@@ -1,5 +1,5 @@
 # Bash
 
-´´´
-  script
-´´´
+```
+  var x = y;
+```
