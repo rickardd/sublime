@@ -20,3 +20,5 @@ ${1:name}ItemView = Marionette.ItemView.extend({
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
+
+

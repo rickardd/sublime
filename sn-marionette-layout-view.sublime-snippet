@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+var ${1:name}LayoutView = Marionette.LayoutView.extend({
+	template: "${2:.css-selector}",
+
+	regions: {
+		${3:region-name}: "${4:css-selector}",
+		${5:region-name}: "${6:css-selector}",
+	},
+	initialize: function(){		
+		this.${7:name}View = new ${7:name}View({
+			model: new ${7:name}Model()
+		});
+		this.${8:name}View = new ${8:name}View({
+			model: new ${8:name}Model()
+		});
+	},
+	onRender: function() {
+		var self = this;
+		this.${7:name}View.model.fetch( {
+			success: function( response ){
+				self.getRegion('${3:name}').show( self.${7:name}View );
+			},
+			error: function(){
+				throw new Error('Faild to fetch data from ${7:name}-model');
+			}
+		});
+
+		this.${8:name}View.model.fetch( {
+			success: function( response ){
+				self.getRegion('${5:name}').show( self.${8:name}View );
+			},
+			error: function(){
+				throw new Error('Faild to fetch data from ${8:name}-model');
+			}
+		});
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sn-marionette-layout-view</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
