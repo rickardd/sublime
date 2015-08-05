@@ -1,6 +1,6 @@
 # Bash
 
-Usefull aliases 
+**Usefull aliases** 
 
 ```
 alias home='cd ~'
@@ -8,19 +8,19 @@ alias me='cd ~/users/rickarddahlstrom'
 alias sublime='cd /Users/rickarddahlstrom/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
 ```
 
-After new commands are added run...
+**After new commands are added run...**
 
 ```
  . ~/.bash_profile
 ```
 
-Add scripts
+**Add scripts**
 
 1. Add [filename].sh in ~/bin
 2. Add the code
 3. Run the code . ~/[filename]
 
-Useful script
+**Useful script**
 
 ````
 #! ~/bin/bash
