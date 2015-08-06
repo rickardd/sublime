@@ -3,18 +3,11 @@
 **Usefull aliases** 
 
 ```
-alias home='cd ~'
-alias me='cd ~/users/rickarddahlstrom'
-alias sublime='cd /Users/rickarddahlstrom/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
-```
-
-or but fix it
-```
-alias home='cd ~'
-alias me='cd $user'
-alias sublime="cd $user/Library/Application\ Support/Sublime\ Text\ 3/Packages/User"
-alias aliaschange="vim ~/.bash_profile"
-alias aliasrun=". ~/.bash_profile"
+alias root='cd /'
+alias me='cd ~'
+alias sublime='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
+alias aliaschange='vim ~/.bash_profile'
+alias aliasrun='. ~/.bash_profile'
 ```
 
 
