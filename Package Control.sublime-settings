@@ -4,7 +4,10 @@
 	],
 	"installed_packages":
 	[
+		"All Autocomplete",
+		"DocBlockr",
 		"Package Control",
-		"sublimelint"
+		"sublimelint",
+		"SublimeREPL"
 	]
 }

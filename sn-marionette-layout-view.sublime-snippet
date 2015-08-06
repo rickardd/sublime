@@ -42,3 +42,4 @@ var ${1:name}LayoutView = Marionette.LayoutView.extend({
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
+
