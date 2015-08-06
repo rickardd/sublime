@@ -14,7 +14,9 @@ alias aliasrun='. ~/.bash_profile'
 **After new commands are added run...**
 
 ```
- . ~/.bash_profile
+$ . ~/.bash_profile
+or
+$ aliasrun
 ```
 
 **Add scripts**
