@@ -5,12 +5,15 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Backbone.Marionette",
 		"DocBlockr",
 		"Emmet",
+		"GitGutter",
+		"JSHint",
 		"LiveReload",
 		"Monokai Gray",
 		"Package Control",
-		"sublimelint",
+		"SublimeGit",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-csslint",
