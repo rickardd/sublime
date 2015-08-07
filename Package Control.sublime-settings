@@ -6,8 +6,16 @@
 	[
 		"All Autocomplete",
 		"DocBlockr",
+		"Emmet",
+		"LiveReload",
+		"Monokai Gray",
 		"Package Control",
 		"sublimelint",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
 		"SublimeREPL"
 	]
 }
