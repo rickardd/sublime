@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Autoprefixer",
 		"Backbone.Marionette",
 		"DocBlockr",
 		"Emmet",
@@ -13,8 +14,10 @@
 		"Grunt",
 		"List stylesheet variables",
 		"LiveReload",
+		"Markdown Slideshow",
 		"Monokai Gray",
 		"Package Control",
+		"PlainTasks",
 		"Sass",
 		"SASS Snippets",
 		"SassBeautify",
@@ -23,6 +26,7 @@
 		"SublimeLinter-csslint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
-		"SublimeREPL"
+		"SublimeREPL",
+		"TodoReview"
 	]
 }
