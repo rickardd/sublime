@@ -1,4 +1,6 @@
 {
+	"bold_folder_labels": true,
+	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/MonokaiGray (SL).tmTheme",
 	"file_exclude_patterns":
 	[
@@ -21,6 +23,7 @@
 		"*.class",
 		"*.psd",
 		"*.db",
+		"*.orig",
 		"*.scssc"
 	],
 	"folder_exclude_patterns":
@@ -33,20 +36,7 @@
 		".sass-cache",
 		"node_modules"
 	],
-	/*"folders":
-	[
-		{
-			"file_exclude_patterns":
-			[
-			],
-			"folder_exclude_patterns":
-			[
-				"node_modules"
-			]
-		}
-	],*/
-
-	"font_size": 14,
+	"font_size": 10,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[

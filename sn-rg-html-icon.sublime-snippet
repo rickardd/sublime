@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+${4:
+<!-- 
+1: flat-icon, custom-icon, svg-icon
+2: icon-16
+3: icon-svg.scss, icon-stroke.scss, icon-custom.scss 
+--> }
+<span class="${1:svg}-icon icon-${2:16} icon-${3:performance}"></span>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>+icon</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.asp</scope>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+${6:
+<!-- 
+.module--margin : 24px margin bottom
+.module-content--padding : 24px padding on sides 
+-->
+}
+
+<section class="module module--white ${1:module--margin}">
+  <header class="module-header ${2:module-header--grey}">
+    <h1 class="heading-size-${3:5}">${4:Headline}</h1>
+  </header>
+  <div class="module-content ${5:module-content--padding}">
+    <!-- Content markup goes here -->
+  </div>
+  <div class="module-footer">
+    <!-- Footer markup goes here -->
+  </div>
+</section>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sn-module</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.html, text.html.asp, source.cshtml, source.mustache</scope>
+</snippet>

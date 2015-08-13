@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+		<div class="chart-tags-wrapper">
+			<ul class="chart-tags clearfix">
+				<li>
+					<span class="chart-tag tag-${1:color}"></span>
+					${2:label}
+				</li>
+				<li>
+					<span class="chart-tag tag-${3:color}"></span>
+					${4:label}
+				</li>
+				<li>
+					<span class="chart-tag tag-${5:color}"></span>
+					${6:label}
+				</li>
+			</ul>
+		</div>
+		]]></content>
+		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+		<tabTrigger>raytags</tabTrigger>
+		<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<!-- <scope>source.python</scope> -->
+	</snippet>
+
