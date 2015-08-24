@@ -2,3 +2,24 @@ end open html tag
 pc alt + .
 mac alt + cmd + .
 
+highlight all matches. E.g select button and then highlight all matches on button
+pc alt + f3
+
+mark start and end tag
+mac comand + shift + K
+
+move lines up and down
+mac command + contrl + up/down to 
+
+delete line
+pc alt + shift + K
+
+Select entire line
+pc ctrl + L
+
+mark entire block
+pc ctrl + shift + J
+
+jump to end tag (Emmet)
+pc ctrl + alt + J
+mac ctrl + shift + T
