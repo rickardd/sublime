@@ -23,3 +23,13 @@ pc ctrl + shift + J
 jump to end tag (Emmet)
 pc ctrl + alt + J
 mac ctrl + shift + T
+
+List all todos (TodoReview)
+Mark code/markup with comments like. 
+<--! Todo: comment (1) -->
+// Todo: comment (9)
+/* Todo: comment */
+cmd + shift + p -> todoReview: To create list
+- (x) are priority and optional
+- The beginning have to start with todo and : but it not case sensitive. 
+
