@@ -36,7 +36,7 @@
 		".sass-cache",
 		"node_modules"
 	],
-	"font_size": 10,
+	"font_size": 12,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
